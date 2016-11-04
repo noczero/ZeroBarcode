@@ -1,0 +1,16 @@
+{
+  "name": "barcodescanner",
+  "version": "1.0.0",
+  "description": "Scan barcode from XYL 8083 and push to Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "Satrya Budi Pratama",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.11.1",
+    "node-hid": "^0.5.1",
+    "node-hid-stream": "0.0.2"
+  }
+}
